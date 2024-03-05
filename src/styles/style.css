@@ -1,0 +1,28 @@
+.input_text{
+    border-color: #F8F8FA;
+    background-color: #F8F8FA;
+    
+    height: 3rem;
+    border-radius: 40px;
+}
+.form-control{
+    border-radius:20px;
+}
+h2 {
+    font-size: px;
+}
+.my_btn{
+    background-color: #8E49FF;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #8E49FF;
+}
+.link_ac{
+    color:  #8E49FF;
+    text-decoration: none;
+}

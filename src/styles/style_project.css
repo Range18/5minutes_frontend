@@ -1,0 +1,154 @@
+.navbar{
+    width: 0.5rem;
+    
+}
+
+.card {
+    color:black;
+}
+.date{
+    color:#8E49FF;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.link{
+    color:#8E49FF;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.tasks{
+    display: block;
+}
+.check-task{
+    display: inline-block;
+}
+.name_project{
+    margin-right: auto;
+    padding: 1rem;
+    background-color: #F8F8FA;
+    border-radius: 10%;
+}
+.btn{
+    padding: 0;
+}
+
+.name_project:hover{
+    border-width: 1px;
+    border-color: #8E49FF;
+} 
+.notes{
+    background-color: #F8F8FA;
+    border-radius: 5%;
+}
+h4{
+    color:#8E49FF;
+}
+h2 {
+    font-weight: bold;
+}
+.my_btn{
+    background-color: #8E49FF;
+    display: block;
+    font-weight: bold;
+}
+.icon{
+    width: 2rem;
+}
+
+.not_started .feature h3{
+    background-color: #FFE2DD;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 10%
+}
+.feature p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #91918E80;
+}
+li{
+    list-style-type: none;  
+}
+
+.to-do-list{
+    background-color: #F8F8FA;
+    border-radius: 5% ;
+}
+.task{
+    background-color: #fff;
+    border-radius: 5% ;
+    padding: 1rem;
+}
+.in_process .feature h3{
+    background-color: #FDECC8;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 10%
+}
+.finished .feature h3{
+    background-color: #EADEFF;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 10%
+}
+
+/* Navifation */
+.navbar{
+    margin-top: 20rem ;
+    width: 5rem;
+}
+
+.nav-item img{
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5%;
+}
+.nav-item img:active, .nav-item img:hover, .nav-item img:focus {
+    background-color: #F8F8FA;
+}
+
+ul { 
+    list-style-type: none;
+    float: center
+  }
+  
+  li a {
+      display: block;
+      padding: 14px 16px;
+  }
+
+  .container{
+    /* padding-top: 5rem; */
+  }
+
+  .box{
+    background-color: #F8F8FA;
+    border-radius: 5%;
+  }
+  .img_box{
+    width: 100%;
+  }
+
+  .container{
+        margin-top: 5rem;
+  }
+/* 
+  progect.html */
+  .link{
+    background-color: #fff;
+    box-shadow: 4px 6px 10px #0F0F0F0D;
+  }
+  .links h3{
+    color: black;
+    font-size: 1.2rem;
+  }
+  .links p{
+    color: #8D8C89;
+    font-size: 1rem;
+  }
+  h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
