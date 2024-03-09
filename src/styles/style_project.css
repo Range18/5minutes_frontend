@@ -28,7 +28,7 @@ h3{
     margin-right: auto;
     padding: 1rem;
     background-color: #F8F8FA;
-    border-radius: 10%;
+    border-radius: 1rem;
 }
 .btn{
     padding: 0;
@@ -40,7 +40,7 @@ h3{
 } 
 .notes{
     background-color: #F8F8FA;
-    border-radius: 5%;
+    border-radius: 1rem;
 }
 h4{
     color:#8E49FF;
@@ -74,6 +74,7 @@ li{
 
 .to-do-list{
     background-color: #F8F8FA;
+    padding: 0.5rem;
     border-radius: 5% ;
 }
 .task{
@@ -134,10 +135,12 @@ ul {
   .container{
         margin-top: 5rem;
   }
+
+
 /* 
   progect.html */
   .link{
-    background-color: #fff;
+    background-color: #ffffff00;
     box-shadow: 4px 6px 10px #0F0F0F0D;
   }
   .links h3{
