@@ -1,6 +1,6 @@
 import {axiosInstance} from "../axios";
 import {AxiosResponse} from "axios";
-import {LoggedUserRdo} from "../logged-user.rdo";
+import {LoggedUserRdo} from "./logged-user.rdo";
 
 
 
