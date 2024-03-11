@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import '../../styles/style_project.css'
-import Contact from "../../layers/contact.layer";
-import Note from "../../layers/note.layer";
+import Contact from "../../layers/projects/contact.layer";
+import Note from "../../layers/projects/note.layer";
 import {SideBar} from "../../layers/side-bar.layer";
 import figmaImg from '../../assets/figma.png'
 import gitImg from '../../assets/git.png'

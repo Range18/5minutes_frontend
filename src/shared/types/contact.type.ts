@@ -1,0 +1,1 @@
+export interface IContact {name: string, about: string, contact: string}
