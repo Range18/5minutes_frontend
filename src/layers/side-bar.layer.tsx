@@ -4,6 +4,7 @@ import calendarImage  from "../assets/Calendar.png"
 import activityImage  from "../assets/Activity.png"
 import notificationImage  from "../assets/Notification.png"
 import unionImage  from "../assets/Union.png"
+import logoutImage from '../assets/logout.png'
 export function SideBar() {
     //TODO
     return (
@@ -22,6 +23,9 @@ export function SideBar() {
             </li>
             <li className="p-3 nav-item">
                 <a href="" className="nav-item p-3"><img src={unionImage} className="icon5" alt="" id="icon"/></a>
+            </li>
+            <li className="p-3 nav-item">
+                <a href="" className="nav-item p-3"><img src={logoutImage} className="icon5" alt="" id="icon"/></a>
             </li>
         </ul>
     );
