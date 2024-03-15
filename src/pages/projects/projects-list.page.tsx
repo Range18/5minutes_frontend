@@ -1,7 +1,23 @@
 import '../../styles/style_project.css'
 import {SideBar} from "../../layers/side-bar.layer";
 import ProjectButton from "../../layers/projects/project-button.layer";
+import {useCallback, useEffect, useState} from "react";
+import {getMe} from "../../http/users/users.requests";
 function ProjectsListPage() {
+    const [username, setUsername] = useState('')
+
+    useEffect(  () => {
+        async function fetchData() {
+            const response =await getMe()
+            if(!response) {
+                return;
+            }
+
+            setUsername(response.data.username)
+        }
+
+        fetchData()
+    }, [])
 
     return (
         <div>
@@ -9,7 +25,7 @@ function ProjectsListPage() {
         <div className="p-4 mt-3 container">
             <div className="project_names">
 
-                <h1>Все проекты</h1>
+                <h1>Все проекты {username}</h1>
                 <div className="mt-4 mb-3 p-2 d-flex flex-column flex-md-row justify-content-around" id="">
 
                     <ProjectButton/>

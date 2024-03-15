@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import '../../styles/style.css'
 import {login} from "../../http/auth/auth.requests";
+import {loginUser} from "../../services/auth.service";
 
 function LoginForm() {
     const [email, setEmail] = useState('')
@@ -15,7 +16,7 @@ function LoginForm() {
                 <input type="text" className="form-control p-3 mt-2 input_text" placeholder="Пароль"
                        aria-label="Username" aria-describedby="basic-addon1" onChange={text => setPassword(text.target.value)}/>
                 <button className="btn btn-primary text-center mt-3 pe-5 ps-5 p-3 my_btn"
-                        type="submit" onClick={async () => {await login(email, password)} }>Войти
+                        type="submit" onClick={async () => {await loginUser(email, password)} }>Войти
                 </button>
                 <p className="text-center mt-2">Еще нет аккаунта?<a href="/auth/register"
                                                                     className="link_ac">Регистрация</a></p>
